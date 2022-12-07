@@ -1,38 +1,198 @@
-.App {
+
+#cont{
+  /* background-color: red; */
+}
+
+#cont1{
+  width: 700px;
+  height: 500px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+#cont2{
+  width: 685px;
+  height: 485px;
+  border: 1px solid black;
+  margin-top: 7px;
+  background-color: black;
+  border-radius: 20px;
+}
+#cont3{
+  width: 650px;
+  height: 450px;
+  border: 1px solid green;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color:white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#sider1{
+  width:190px ;
+  height: 446px;
+  /* border: 1px solid red; */
+  background-color: grey;
+  margin-top: -230%;
+  margin-left: 2%;
+  display: grid;
+  grid-template-rows: repeat(10,1fr);
+
+}
+#sider1_1,#sider1_2,#sider1_3,#sider1_4,#sider1_5,#sider1_6,#sider1_7,#sider1_8,#sider1_9,#sider1_10{
+  width: 190px;
+  height: 32px;
+  /* border: 1px solid black; */
+  text-align: start;
+  /* margin-top: -10px; */
+}
+#sider1_11,#sider1_12,#sider1_13{
+  width: 150px;
+  height: 25px;
+  /* border: 1px solid black; */
+  text-align: start;
+  margin-left: 40px;
+}
+/* #sider1_10{
+  width: 190px;
+  height: 42px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}
+#sider1_10_1,#sider1_10_2,#sider1_10_3{
+
+} */
+#body1{
+  width: 450px ;
+  height: 448px;
+  /* border: 1px solid red; */
+}
+#body1_1{
+  width: 430px;
+  height: 400px;
+  /* border: 1px solid black; */
+  text-align: left;
+}
+#bodyhr1{
+  width: 350px;
+  height: 2px;
+  background-color: rgb(59, 59, 144);
+  margin-left: -0px;
+}
+span{
+  color: red;
+}
+td{
+  width:390px;
+  height:10px ;
+  border: 1px solid black;
+}
+#tablehr1, #tablehr2{
+  width:100px;
+  height: 2px;
+  background-color: rgb(59, 59, 144);
+  margin-left: -0px;
+  margin-top: -10px;
+}
+#tablehr3{
+  margin-top: -10px;
+}
+#update{
+  margin-top: 50px;
+  margin-left: 130px;
+  width: 90px;
+  height: 30px;
+  border: 1px ;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(100, 170, 177);
+}
+#cancel{
+  width: 90px;
+  height: 30px;
+  border: 1px ;
+  /* margin-top:-100%; */
+  margin-left: 30px;
+  border-radius: 5px;
+  background-color: rgb(202, 199, 199);
+ 
+}
+#add_new{
+  width: 80px;
+  height: 22px;
+  border: 1px ;
+  border-radius:2px ;
+  color: white;
+  background-color: rgb(100, 170, 177);
+  margin-left: 85%;
+}
+#smallbox{
+  width: 23px;
+  height: 150px;
+  /* border: 1px solid red; */
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr); */
+
+}
+/* #smallbox1,#smallbox3{
+  width: 23px;
+  height: 35px;
+  border: 1px solid black;
   text-align: center;
+ 
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#smallbox2,#smallbox4{
+  width: 23px;
+  height: 35px;
+  border: 1px solid black;
+} */
+#body2{
+  width: 440px;
+  height: 150px;
+  border: 1px solid grey;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* margin-top: -34%; */
+  /* grid-template-rows: repeat((2,1fr)) */
 }
+#body2_2,#body2_3,#body2_4,#body2_6,#body2_7,#body2_8{
+  width:138px ;
+  height: 75px;
+  border: 1px solid rgb(223, 223, 223);
+} 
+#body2_1,#body2_5{
+  width: 20px;
+  height:75px ;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-rows: auto auto;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#body2_1_1,#body2_5_1{
+  width: 20px;
+  height: 39px;
+  /* border: 1px solid black; */
+  background-color: black;
+}
+#body2_1_2,#body2_5_2{
+  width: 20px;
+  height: 39px;
+  /* border: 1px solid black; */
+  background-color: rgb(246, 69, 69);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#header1{
+  width: 445px;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgb(75, 173, 206);
+}
+#headertext{
+  /* margin-left: -170px; */
+  text-align: left;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

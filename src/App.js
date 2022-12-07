@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import Body from './Body';
+import Sider from './Sider';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+export default function Main(){
+    return(
+        <div id='cont'>
+        <center>
+    <div id='cont1'>
+        <div id='cont2'>
+            <div id='cont3'>
+            <h1></h1>
+            <Body/>
+            <Sider/>
+          
+            </div>
+        </div>
     </div>
-  );
+    </center>
+    </div >
+    )
 }
-
-export default App;
